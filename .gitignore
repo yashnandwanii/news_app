@@ -5,9 +5,11 @@
 *.swp
 .DS_Store
 .atom/
+.build/
 .buildlog/
 .history
 .svn/
+.swiftpm/
 migrate_working_dir/
 
 # IntelliJ related
@@ -15,6 +17,7 @@ migrate_working_dir/
 *.ipr
 *.iws
 .idea/
+
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
@@ -41,3 +44,28 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Xcode will place build artifacts here
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Pods/
+/ios/Runner.xcworkspace/
+/ios/Runner.xcuserdata/
+/ios/Runner.xcscheme
+# Xcode will place build artifacts here
+/ios/Pods/Local\ Pod\ Files/
+/ios/Pods/Target\ Support\ Files/
+/ios/Pods/Pods.xcodeproj/
+# Xcode will place build artifacts here
+/ios/Runner.xcworkspace/xcuserdata/
+# Xcode will place build artifacts here
+/ios/Runner.xcworkspace/xcshareddata/
+# Xcode will place build artifacts here
+/ios/Runner.xcworkspace/xcuserdata/$(USER).xcuserdatad/
+# Xcode will place build artifacts here
+/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+# Xcode will place build artifacts here
+/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+        

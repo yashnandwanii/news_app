@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/pages/HomePage/homepage.dart';
+import 'package:news_app/home_page_controller.dart';
+import 'package:get/get.dart';
 
 final ThemeData lightTheme = ThemeData.light();
 final ThemeData darkTheme = ThemeData.dark();
@@ -14,13 +15,13 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: lightTheme,
       themeMode: ThemeMode.system,
       darkTheme: darkTheme,
       title: 'Flutter Demo',
-      home:  Homepage(),
+      home: const Homepagecontroller(),
     );
   }
 }
